@@ -7,5 +7,9 @@ def show_date() -> None:
     
 
 def greet(name: str) -> None:
-    print("==========functions==========")
+    print("==========functions with parameter==========")
     print(f"Hello, {name}")
+    
+def add(a: float, b: float) -> float:
+    print("==========functions with return value==========")
+    return a + b
