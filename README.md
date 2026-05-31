@@ -1,5 +1,12 @@
 # Python Project Quick Start
 
+## short version:
+```bash
+python -m venv .venv
+source .venv/Scripts/activate
+python -m pip install --upgrade pip
+```
+
 ## 1. Create project
 
 ```bash
